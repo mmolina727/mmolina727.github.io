@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icon.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/900924edb0.js" crossorigin="anonymous"></script>
+    <title>Fit House - Home</title>
+</head>
+<body>
+    <header>
+        <div class="content-header">
+            <div class="content-menu">
+                <div class="icon-menu">
+                    <img  id ="icon-main" src="./img/menu.png" alt="icono">
+                </div>
+                <ul id ="main-list"class="menu">
+                    <li>Home</li>
+                    <li> <a href="./pages/instalaciones.html">Instalaciones</a></li>
+                    <li><a href="./pages/asociate.html">Asociate</a></li>
+                </ul>
+            </div>
+            <div class="cart-content">
+                <a class="icon-cart">
+                    <i id="cart" class="fas fa-shopping-cart"></i>
+                </a>
+                <div class="modal-cart close">
+                    <ul class="list-cart">
+                        <li>ACTIVIDAD</li>
+                        <li>PRECIO ($)</li>
+                    </ul>
+                    <div id="workout-row">
+                    </div>
+                    <div class="total">
+                        <h1>TOTAL</h1>
+                        <span id="final-price">0</span>
+                    </div>
+                    <div class="btn-cart">
+                        <button id="btn-clean">VACIAR CARRITO</button>
+                        <button id="btn-buy">COMPRAR</button>
+                    </div>  
+                </div>
+            </div>
+        </div>
+        <div class="logo">
+            <img src="./img/logo.png" alt="logo">
+        </div>  
+        <div class="subtitle">
+            <h2>
+                Tu mejor version te espera. Disfruta de amplios espacios para tu entrenamiento al mejor precio
+            </h2>
+        </div>
+        <div class="button-acces">
+            <button>
+                Accede ahora
+            </button>
+        </div>     
+    </header>       
+    <section>
+        <div class="conteiner-title">
+            <img src="./img/workouts.png" alt="workouts">
+        </div>
+        <div id="workouts">
+        </div>
+    </section>
+    <footer>
+        <div class="social-redes">
+            <h3>Seguinos</h3>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-youtube"></a>
+        </div>
+        <div>
+            <ul class="footer-list">
+                <li>© FIT HOUSE. todos los derechos reservados</li>
+                <li>Desing by MOLINA MATIAS</li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>            
